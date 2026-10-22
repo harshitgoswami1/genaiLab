@@ -6,9 +6,11 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "datasets==3.6.0",
+    "diffusers>=0.39.0",
     "evaluate>=0.4.6",
     "gensim>=4.4.0",
     "ipykernel>=7.4.0",
+    "langchain>=1.4.7",
     "langchain-chroma>=1.1.0",
     "langchain-classic>=1.0.8",
     "langchain-community>=0.4.2",
@@ -21,6 +23,7 @@ dependencies = [
     "rouge-score>=0.1.2",
     "sacrebleu>=2.6.0",
     "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
     "sentence-transformers>=5.7.0",
     "sentencepiece>=0.2.2",
     "torch>=2.14.1",
